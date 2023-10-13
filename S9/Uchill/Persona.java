@@ -1,4 +1,5 @@
 package Uchill;
+
 public class Persona {
     protected int dni;
     protected String nombres;
@@ -67,8 +68,12 @@ public class Persona {
         this.telefono = telefono;
     }
 
-    public void mandarCorreo(){
-        System.out.println("Enviando correo de: " + correo);
+    public void mandarCorreo(String conf){
+        if (conf == "si" || conf == " SI") {
+            System.out.println("Enviando correo de: " + correo);
+        }else{
+            System.out.println(" ");
+        }
     }
 
     @Override
