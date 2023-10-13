@@ -1,4 +1,4 @@
-public class Estudiante extends Personas {
+public class Estudiante extends Persona {
     private double notas;
     private int carnet;
 

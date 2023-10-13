@@ -1,4 +1,4 @@
-public class Personas {
+public class Persona {
     protected int dni;
     protected String nombres;
     protected String  apellidos;
@@ -6,10 +6,10 @@ public class Personas {
     protected String  correo;
     protected int  telefono;
 
-    public Personas(){
+    public Persona(){
     }
 
-    public Personas(int dni, String nombres, String apellidos, int edad, String correo, int telefono) {
+    public Persona(int dni, String nombres, String apellidos, int edad, String correo, int telefono) {
         this.dni = dni;
         this.nombres = nombres;
         this.apellidos = apellidos;
